@@ -19,11 +19,11 @@ for p in [str(PROJECT_ROOT), str(ECOMMERCE_ROOT)]:
 
 # Safe import for Airflow environments
 try:
-    from airflow import DAG
+    from airflow import DAG  # type: ignore
     try:
-        from airflow.providers.standard.operators.python import PythonOperator
+        from airflow.providers.standard.operators.python import PythonOperator  # type: ignore
     except ImportError:
-        from airflow.operators.python import PythonOperator
+        from airflow.operators.python import PythonOperator  # type: ignore
     AIRFLOW_AVAILABLE = True
 except ImportError:
     AIRFLOW_AVAILABLE = False
