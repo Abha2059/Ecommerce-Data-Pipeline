@@ -1,0 +1,99 @@
+# =====================================================================
+# Git Ignore Configuration: E-Commerce Data Engineering Pipeline
+# =====================================================================
+
+# Python compilation and packages
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing, Coverage & Type Checking
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# PySpark, Hadoop & Derby Metastore
+metastore_db/
+derby.log
+spark-warehouse/
+.spark-staging/
+checkpoint/
+
+# Apache Airflow State & Logs
+airflow.cfg
+airflow.db
+*.pid
+logs/
+airflow_logs/
+
+# Raw and Processed Large Data Files (Stored in AWS S3 Data Lake)
+data/raw/*.zip
+data/raw/*.xlsx
+data/raw/*.csv
+data/processed/*
+data/quarantine/*
+data/validated/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/quarantine/.gitkeep
+!data/validated/.gitkeep
+!data/raw/source_metadata.json
+
+# Local Embedded Databases
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite3
+*.db
+
+# Streamlit Local Runtime & Secrets (CRITICAL: Do not leak cloud credentials)
+.streamlit/secrets.toml
+.streamlit/config.toml.local
+secrets.toml
+
+# Environment Variables & Sensitive Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+client_secrets.json
+
+# Application Logs & Tunnel Artifacts
+*.log
+.cloudflared/
+
+# Operating System & IDE Artifacts
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

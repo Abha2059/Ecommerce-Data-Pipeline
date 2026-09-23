@@ -1,0 +1,21 @@
+customer_id,customer_name,customer_email,city,state,customer_segment
+CUST-00001,Linda Smith,linda.smith1@example.org,Eugene,OR,Gold VIP
+CUST-00002,Jessica Davis,jessica.davis2@example.org,Buffalo,NY,Standard
+CUST-00003,Paul Williams,paul.williams3@example.org,Orlando,FL,Enterprise
+CUST-00004,John Smith,john.smith4@example.org,San Diego,CA,Silver VIP
+CUST-00005,Joseph Taylor,joseph.taylor5@example.org,Tampa,FL,Standard
+CUST-00006,Emily Miller,emily.miller6@example.org,Portland,OR,Wholesale
+CUST-00007,Anthony Davis,anthony.davis7@example.org,Cambridge,MA,Wholesale
+CUST-00008,Sarah Sanchez,sarah.sanchez8@example.org,Pittsburgh,PA,Standard
+CUST-00009,David Thompson,david.thompson9@example.org,Boston,MA,Gold VIP
+CUST-00010,Sarah Jones,sarah.jones10@example.org,Austin,TX,Gold VIP
+CUST-00011,Michael Williams,michael.williams11@example.org,Naperville,IL,Standard
+CUST-00012,Daniel Ramirez,daniel.ramirez12@example.org,Chicago,IL,Wholesale
+CUST-00013,Thomas Sanchez,thomas.sanchez13@example.org,Los Angeles,CA,Enterprise
+CUST-00014,Paul Brown,paul.brown14@example.org,Naperville,IL,Standard
+CUST-00015,Emily Martinez,emily.martinez15@example.org,Philadelphia,PA,Wholesale
+CUST-00016,Lisa Jackson,lisa.jackson16@example.org,Austin,TX,Standard
+CUST-00017,John Perez,john.perez17@example.org,Houston,TX,Gold VIP
+CUST-00018,Jennifer Ramirez,jennifer.ramirez18@example.org,Houston,TX,Standard
+CUST-00019,Matthew Rodriguez,matthew.rodriguez19@example.org,Cambridge,MA,Gold VIP
+CUST-00020,David Lopez,david.lopez20@example.org,Chicago,IL,Silver VIP

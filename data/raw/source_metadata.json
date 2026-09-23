@@ -1,0 +1,23 @@
+{
+  "source_name": "UCI Machine Learning Repository - Online Retail",
+  "source_url": "https://archive.ics.uci.edu/static/public/352/online+retail.zip",
+  "download_timestamp_utc": "2026-09-23T04:56:05.977831+00:00",
+  "historical_period": "2010-12-01 to 2011-12-09",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "record_count": 541909,
+  "column_count": 8,
+  "columns": [
+    "InvoiceNo",
+    "StockCode",
+    "Description",
+    "Quantity",
+    "InvoiceDate",
+    "UnitPrice",
+    "CustomerID",
+    "Country"
+  ],
+  "zip_file_bytes": 23715478,
+  "xlsx_file_bytes": 23715344,
+  "csv_file_bytes": 48039726,
+  "sha256_csv": "c35975c40d0e1e105090fbb11188a409393055f873841bd012915475fc84e69f"
+}

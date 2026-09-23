@@ -1,0 +1,27 @@
+# Core Data Processing
+pandas>=2.1.0,<3.0.0
+pyarrow>=14.0.0
+pyspark>=3.5.0,<=3.5.3
+openpyxl>=3.1.0
+
+# HTTP & Ingestion
+requests>=2.31.0
+urllib3>=2.0.0
+certifi>=2024.2.2
+
+# Database & Storage
+mysql-connector-python>=8.3.0
+sqlalchemy>=2.0.27
+
+# Configuration & Utilities
+pyyaml>=6.0.1
+python-dotenv>=1.0.1
+
+# Testing & Quality
+pytest>=8.0.0
+pytest-mock>=3.12.0
+
+# Visualization & App Dashboard
+streamlit>=1.32.0
+plotly>=5.20.0
+duckdb>=1.0.0

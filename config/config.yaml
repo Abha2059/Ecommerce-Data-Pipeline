@@ -1,0 +1,30 @@
+app:
+  name: "HistoricalEcommercePipeline"
+  environment: "local"
+  log_level: "INFO"
+
+database:
+  host: "localhost"
+  port: 3306
+  database: "ecommerce_dw"
+  user: "root"
+  password: ""
+  pool_size: 5
+
+source:
+  source_name: "UCI Machine Learning Repository - Online Retail"
+  source_url: "https://archive.ics.uci.edu/static/public/352/online+retail.zip"
+  timeout_seconds: 60
+  max_retries: 3
+  expected_row_count_approx: 541909
+
+paths:
+  raw_data_dir: "data/raw"
+  validated_data_dir: "data/validated"
+  processed_data_dir: "data/processed/historical_sales"
+  quarantine_data_dir: "data/quarantine"
+
+spark:
+  app_name: "HistoricalEcommercePipeline"
+  master: "local[*]"
+  log_level: "WARN"

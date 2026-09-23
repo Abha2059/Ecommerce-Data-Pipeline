@@ -1,0 +1,11 @@
+product_id,product_name,category,brand,unit_price,stock
+PROD-0001,Logitech Ultra Earbuds,Electronics,Logitech,321.14,293
+PROD-0002,Darn Tough Wireless Chinos,Apparel,Darn Tough,236.51,158
+PROD-0003,Breville Wireless Toaster,Home & Kitchen,Breville,168.90,413
+PROD-0004,Hydro Flask Wireless Water Bottle,Sports & Outdoors,Hydro Flask,404.47,225
+PROD-0005,Manning Ultra Guide,Books,Manning,457.44,310
+PROD-0006,Samsung Wireless Charger,Electronics,Samsung,254.62,472
+PROD-0007,Darn Tough Premium Chinos,Apparel,Darn Tough,139.79,146
+PROD-0008,Breville Eco Toaster,Home & Kitchen,Breville,296.45,479
+PROD-0009,Osprey Compact Tent,Sports & Outdoors,Osprey,117.47,90
+PROD-0010,Addison-Wesley Premium Handbook,Books,Addison-Wesley,380.33,460
